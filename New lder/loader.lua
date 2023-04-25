@@ -145,16 +145,16 @@ elseif game.PlaceId ~= 2377868063 then
         wait(0.02)
         g.Parent.IntroFrame.SliceScale = 0.2
         wait(0.2)
-        g.Parent.IntroFrame.InjectionLabel.Text = "Easy |"
+        g.Parent.IntroFrame.InjectionLabel.Text = "Ghost |"
         wait(0.30)
-        g.Parent.IntroFrame.InjectionLabel.Text = "EasyXploitsAPI |"
+        g.Parent.IntroFrame.InjectionLabel.Text = "GhostWare |"
         wait(0.10)
-        g.Parent.IntroFrame.InjectionLabel.Text = "EasyXploitsAPI " .. (ree and "Re-Loaded" or "Loaded")
+        g.Parent.IntroFrame.InjectionLabel.Text = "GhostWare Loaded"
         wait(1)
-        g.Parent.IntroFrame.InjectionLabel.Text = "EasyXploitsAPI Credits To iDev"
+        g.Parent.IntroFrame.InjectionLabel.Text = "GhostWare Credits To espero_dev & Jasom Tuit"
         wait(1)
         g.Parent.IntroFrame:TweenSize(UDim2.new(0, 330, 0, 330), "Out", "Quad", 0.5, true)
-        g.Parent.IntroFrame.InjectionLabel.Text = "EasyXploitsAPI"
+        g.Parent.IntroFrame.InjectionLabel.Text = "GhostWare"
         g.Parent.IntroFrame.SliceScale = 0.2
         wait(0.02)
         g.Parent.IntroFrame.SliceScale = 0.1
